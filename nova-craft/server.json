@@ -19,7 +19,7 @@
   "simulationDistance": 10,
   "pvp": true,
   "whiteList": false,
-  "onlineMode": true,
+  "onlineMode": false,
   "seed": "",
   "motd": "A NOVA CRAFT Server",
   "memoryMb": 6144,
