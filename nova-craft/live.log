@@ -1,81 +1,39 @@
 Starting org.bukkit.craftbukkit.Main
 *** Warning, you've not updated in a while! ***
 *** Please download a new build from https://papermc.io/downloads/paper ***
-2026-10-18T22:46:53.534438476Z ServerMain WARN Advanced terminal features are not available in this environment
-[22:46:53 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS; Eclipse Adoptium Temurin-21.0.12.1+1) on Linux 6.17.0-1022-azure (amd64)
-[22:46:53 INFO]: [bootstrap] Loading Paper 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) for Minecraft 1.21.11
-[22:46:54 INFO]: [PluginInitializerManager] Initializing plugins...
-[22:46:54 INFO]: [PluginInitializerManager] Initialized 0 plugins
-[22:46:59 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[22:47:01 INFO]: Loaded 1470 recipes
-[22:47:01 INFO]: Loaded 1584 advancements
-[22:47:01 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[22:47:02 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 324.4ms
-[22:47:02 INFO]: Starting minecraft server version 1.21.11
-[22:47:02 INFO]: Loading properties
-[22:47:02 INFO]: This server is running Paper version 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[22:47:02 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:47:02 INFO]: Server Ping Player Sample Count: 12
-[22:47:02 INFO]: Using 4 threads for Netty based IO
-[22:47:03 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:47:03 INFO]: Default game type: SURVIVAL
-[22:47:03 INFO]: Generating keypair
-[22:47:03 INFO]: Starting Minecraft server on *:25565
-[22:47:03 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:47:03 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[22:47:03 INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:47:03 INFO]: Preparing level "world"
-[22:47:03 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[22:47:03 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[22:47:04 INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[22:47:04 INFO]: Prepared spawn area in 1 ms
-[22:47:04 INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[22:47:04 INFO]: Prepared spawn area in 1 ms
-[22:47:04 INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[22:47:04 INFO]: Prepared spawn area in 0 ms
-[22:47:04 INFO]: Done preparing level "world" (0.411s)
-[22:47:04 INFO]: [spark] Starting background profiler...
-[22:47:05 INFO]: Running delayed init tasks
-[22:47:05 INFO]: Done (12.428s)! For help, type "help"
-[22:50:23 INFO]: [Not Secure] [Server] NOVA CRAFT is stopping
-[22:50:32 INFO]: Automatic saving is now disabled
-[22:50:32 INFO]: Saving the game (this may take a moment!)
-[22:50:32 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:50:32 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:50:32 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:50:32 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:50:32 INFO]: Saved the game
-[22:50:39 INFO]: Automatic saving is now enabled
-[22:50:39 INFO]: Stopping the server
-[22:50:39 INFO]: Stopping server
-[22:50:39 INFO]: Saving players
-[22:50:39 INFO]: Saving worlds
-[22:50:39 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:50:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:50:39 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:50:39 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:50:39 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[22:50:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[22:50:39 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[22:50:39 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:50:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:50:39 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:50:39 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:50:39 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[22:50:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[22:50:39 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[22:50:39 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:50:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:50:39 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:50:39 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:50:39 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[22:50:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[22:50:39 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[22:50:39 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:50:39 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:50:39 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:50:39 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:50:39 INFO]: Waiting for all RegionFile I/O tasks to complete...
-[22:50:39 INFO]: All RegionFile I/O tasks to complete
-[22:50:39 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:50:39 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+2026-10-18T22:51:33.255608772Z ServerMain WARN Advanced terminal features are not available in this environment
+[22:51:33 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS; Eclipse Adoptium Temurin-21.0.12.1+1) on Linux 6.17.0-1022-azure (amd64)
+[22:51:33 INFO]: [bootstrap] Loading Paper 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) for Minecraft 1.21.11
+[22:51:33 INFO]: [PluginInitializerManager] Initializing plugins...
+[22:51:34 INFO]: [PluginInitializerManager] Initialized 0 plugins
+[22:51:37 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:51:38 INFO]: Loaded 1470 recipes
+[22:51:38 INFO]: Loaded 1584 advancements
+[22:51:38 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:51:38 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 259.2ms
+[22:51:38 INFO]: Starting minecraft server version 1.21.11
+[22:51:38 INFO]: Loading properties
+[22:51:38 INFO]: This server is running Paper version 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[22:51:38 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:51:38 INFO]: Server Ping Player Sample Count: 12
+[22:51:38 INFO]: Using 4 threads for Netty based IO
+[22:51:39 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:51:39 INFO]: Default game type: SURVIVAL
+[22:51:39 INFO]: Generating keypair
+[22:51:39 INFO]: Starting Minecraft server on *:25565
+[22:51:39 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:51:39 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:51:39 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:51:39 INFO]: Preparing level "world"
+[22:51:39 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[22:51:39 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[22:51:40 INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[22:51:40 INFO]: Prepared spawn area in 1 ms
+[22:51:40 INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[22:51:40 INFO]: Prepared spawn area in 0 ms
+[22:51:40 INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[22:51:40 INFO]: Prepared spawn area in 1 ms
+[22:51:40 INFO]: Done preparing level "world" (0.324s)
+[22:51:40 INFO]: [spark] Starting background profiler...
+[22:51:40 INFO]: Running delayed init tasks
+[22:51:40 INFO]: Done (8.446s)! For help, type "help"
