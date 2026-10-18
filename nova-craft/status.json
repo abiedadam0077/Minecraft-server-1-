@@ -1,9 +1,9 @@
 {
   "schema": 2,
   "serverId": "mvedskyt5ee1oh",
-  "phase": "starting",
-  "ready": false,
-  "reason": "playit-agent-failed",
+  "phase": "ready",
+  "ready": true,
+  "reason": "server-ready",
   "playersOnline": null,
   "playersMax": null,
   "version": "1.21.11",
@@ -26,10 +26,10 @@
   "serverPortStatus": "listening",
   "gamePort": 25565,
   "agentLogTail": "\u001b[2m2026-10-18T22:36:58.781228Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[2mplayitd::daemon\u001b[0m\u001b[2m:\u001b[0m Starting playitd \u001b[3msocket_path\u001b[0m\u001b[2m=\u001b[0mNone \u001b[3msecret_path\u001b[0m\u001b[2m=\u001b[0mSome(\"/home/runner/work/_temp/nova-playit-39172964918-1.sSnA6E/agent.secret\") \u001b[3mversion\u001b[0m\u001b[2m=\u001b[0m1.0.10\nplayitd error: IPC error: Failed to bind to socket: No such file or directory (os error 2)\n",
-  "fileManifestStatus": "unknown",
-  "fileSnapshotStatus": "unknown",
+  "fileManifestStatus": "published",
+  "fileSnapshotStatus": "published",
   "latencyMs": null,
-  "updatedAt": "2026-10-18T22:37:00Z",
-  "cycleStartedAt": "2026-10-18T22:36:33Z",
+  "updatedAt": "2026-10-18T22:37:08Z",
+  "cycleStartedAt": "2026-10-18T22:37:03Z",
   "conclusion": ""
 }
