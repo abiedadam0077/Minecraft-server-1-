@@ -8,9 +8,9 @@
   "playersMax": null,
   "version": "1.21.11",
   "serverPid": 2200,
-  "tunnelStatus": "connected",
-  "tunnelMessage": "Playit's reported address answered a Java Server List Ping.",
-  "tunnelDiagnostic": "connected",
+  "tunnelStatus": "connecting",
+  "tunnelMessage": "The local game port is ready; waiting for Playit's public address to answer the Minecraft protocol ping.",
+  "tunnelDiagnostic": "connecting",
   "tunnelAddress": "practically-agile.tun.ply.gg",
   "tunnelName": "Minecraft",
   "tunnelId": "f84a1053-8832-4729-a9e3-c76a21f38546",
@@ -29,7 +29,7 @@
   "fileManifestStatus": "published",
   "fileSnapshotStatus": "publish_failed",
   "latencyMs": null,
-  "updatedAt": "2026-10-19T15:45:01Z",
+  "updatedAt": "2026-10-19T15:45:39Z",
   "cycleStartedAt": "2026-10-19T13:04:36Z",
   "conclusion": ""
 }
