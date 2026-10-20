@@ -71,3 +71,5 @@ Starting org.bukkit.craftbukkit.Main
 [23:07:18 INFO]: Done (21.760s)! For help, type "help"
 [23:07:18 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [23:07:18 INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[03:58:16 WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see https://skinsrestorer.net/firewall[0;39m
