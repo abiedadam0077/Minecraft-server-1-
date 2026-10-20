@@ -1,9 +1,9 @@
 {
   "schema": 2,
   "serverId": "mvedskyt5ee1oh",
-  "phase": "starting",
-  "ready": false,
-  "reason": "playit-agent-failed",
+  "phase": "ready",
+  "ready": true,
+  "reason": "server-ready",
   "playersOnline": null,
   "playersMax": null,
   "version": "1.21.11",
@@ -26,10 +26,10 @@
   "serverPortStatus": "listening",
   "gamePort": 25565,
   "agentLogTail": "\u001b[2m2026-10-20T04:08:31.949464Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[2mplayitd::daemon\u001b[0m\u001b[2m:\u001b[0m Starting playitd \u001b[3msocket_path\u001b[0m\u001b[2m=\u001b[0mSome(\"/home/runner/work/_temp/nova-playit-39367909624-1.10nHV2/playit.sock\") \u001b[3msecret_path\u001b[0m\u001b[2m=\u001b[0mSome(\"/home/runner/work/_temp/nova-playit-39367909624-1.10nHV2/agent.secret\") \u001b[3mversion\u001b[0m\u001b[2m=\u001b[0m1.0.10\n\u001b[2m2026-10-20T04:08:32.112337Z\u001b[0m \u001b[33m WARN\u001b[0m \u001b[2mplayitd::daemon\u001b[0m\u001b[2m:\u001b[0m configured agent secret is no longer valid \u001b[3merror\u001b[0m\u001b[2m=\u001b[0mApiError(Auth(InvalidAgentKey))\n\u001b[2m2026-10-20T04:08:32.112378Z\u001b[0m \u001b[32m INFO\u001b[0m \u001b[2mplayitd::daemon\u001b[0m\u001b[2m:\u001b[0m Waiting for frontend secret provisioning over IPC \u001b[3msecret_path\u001b[0m\u001b[2m=\u001b[0m/home/runner/work/_temp/nova-playit-39367909624-1.10nHV2/agent.secret\n",
-  "fileManifestStatus": "unknown",
-  "fileSnapshotStatus": "unknown",
+  "fileManifestStatus": "published",
+  "fileSnapshotStatus": "publish_failed",
   "latencyMs": null,
-  "updatedAt": "2026-10-20T04:08:33Z",
-  "cycleStartedAt": "2026-10-20T04:08:01Z",
+  "updatedAt": "2026-10-20T04:08:40Z",
+  "cycleStartedAt": "2026-10-20T04:08:35Z",
   "conclusion": ""
 }
