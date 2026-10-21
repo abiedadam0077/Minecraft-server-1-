@@ -72,3 +72,50 @@ Starting org.bukkit.craftbukkit.Main
 [19:13:04 INFO]: Done (15.968s)! For help, type "help"
 [19:13:04 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [19:13:05 INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:13:19 INFO]: Automatic saving is now disabled
+[00:13:19 INFO]: Saving the game (this may take a moment!)
+[00:13:19 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:13:19 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:13:19 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:13:19 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:13:19 INFO]: Saved the game
+[00:13:27 INFO]: Automatic saving is now enabled
+[00:13:27 INFO]: Stopping the server
+[00:13:27 INFO]: Stopping server
+[00:13:27 INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.6
+[00:13:27 INFO]: [ViaRewind] Disabling ViaRewind v4.2.0
+[00:13:27 INFO]: [ViaBackwards] Disabling ViaBackwards v5.12.2-SNAPSHOT
+[00:13:27 INFO]: [ViaVersion] Disabling ViaVersion v5.12.2-SNAPSHOT
+[00:13:27 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:13:27 INFO]: Saving players
+[00:13:27 INFO]: Saving worlds
+[00:13:27 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:13:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:13:27 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:13:27 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:13:27 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[00:13:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[00:13:27 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[00:13:27 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:13:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:13:27 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:13:27 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:13:27 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[00:13:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[00:13:27 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[00:13:27 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:13:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:13:27 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:13:27 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:13:27 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[00:13:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[00:13:27 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[00:13:27 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:13:27 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:13:27 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:13:27 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:13:27 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[00:13:27 INFO]: All RegionFile I/O tasks to complete
+[00:13:27 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+2026-10-21T00:13:27.900531699Z Log4j2-AsyncAppenderEventDispatcher-1-Async WARN Advanced terminal features are not available in this environment
+[00:13:27 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
