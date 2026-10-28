@@ -1,121 +1,73 @@
 Starting org.bukkit.craftbukkit.Main
 *** Warning, you've not updated in a while! ***
 *** Please download a new build from https://papermc.io/downloads/paper ***
-2026-10-27T21:52:15.925040877Z ServerMain WARN Advanced terminal features are not available in this environment
-[21:52:16 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS; Eclipse Adoptium Temurin-21.0.12.1+1) on Linux 6.17.0-1022-azure (amd64)
-[21:52:16 INFO]: [bootstrap] Loading Paper 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) for Minecraft 1.21.11
-[21:52:16 INFO]: [PluginInitializerManager] Initializing plugins...
-[21:52:17 INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[21:52:18 INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 1719ms.
-[21:52:19 INFO]: [PluginInitializerManager] Initialized 4 plugins
-[21:52:19 INFO]: [PluginInitializerManager] Bukkit plugins (4):
+2026-10-28T02:53:17.563751668Z ServerMain WARN Advanced terminal features are not available in this environment
+[02:53:17 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS; Eclipse Adoptium Temurin-21.0.12.1+1) on Linux 6.17.0-1022-azure (amd64)
+[02:53:17 INFO]: [bootstrap] Loading Paper 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) for Minecraft 1.21.11
+[02:53:18 INFO]: [PluginInitializerManager] Initializing plugins...
+[02:53:19 INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[02:53:22 INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2962ms.
+[02:53:22 INFO]: [PluginInitializerManager] Initialized 4 plugins
+[02:53:22 INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - SkinsRestorer (15.12.6), ViaBackwards (5.12.2-SNAPSHOT), ViaRewind (4.2.0), ViaVersion (5.12.2-SNAPSHOT)
-[21:52:22 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:52:23 INFO]: Loaded 1470 recipes
-[21:52:23 INFO]: Loaded 1584 advancements
-[21:52:23 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:52:23 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 301.0ms
-[21:52:23 INFO]: Starting minecraft server version 1.21.11
-[21:52:23 INFO]: Loading properties
-[21:52:23 INFO]: This server is running Paper version 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[21:52:24 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:52:24 INFO]: Server Ping Player Sample Count: 12
-[21:52:24 INFO]: Using 4 threads for Netty based IO
-[21:52:24 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[21:52:24 INFO]: Default game type: SURVIVAL
-[21:52:24 INFO]: Generating keypair
-[21:52:24 INFO]: Starting Minecraft server on *:25565
-[21:52:24 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:52:24 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[21:52:25 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.2-SNAPSHOT
-[21:52:25 INFO]: [ViaVersion] ViaVersion 5.12.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[21:52:26 INFO]: [ViaBackwards] Loading translations...
-[21:52:26 INFO]: [ViaBackwards] Registering protocols...
-[21:52:26 INFO]: [ViaRewind] Registering protocols...
-[21:52:26 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.2-SNAPSHOT
-[21:52:26 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.2.0
-[21:52:26 INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.6
-[21:52:26 INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:52:26 INFO]: [ViaRewind] Enabling ViaRewind v4.2.0
-[21:52:26 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.6
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.11[32;1m.[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[21:52:27 INFO]: Preparing level "world"
-[21:52:27 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[21:52:27 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer   |[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |-------------------|[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m  |[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.6[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mc8c321f[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[21:52:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
-[21:52:28 INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[21:52:28 INFO]: Preparing spawn area: 100%
-[21:52:28 INFO]: Prepared spawn area in 2 ms
-[21:52:28 INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[21:52:28 INFO]: Prepared spawn area in 1 ms
-[21:52:28 INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[21:52:28 INFO]: Preparing spawn area: 100%
-[21:52:28 INFO]: Prepared spawn area in 1 ms
-[21:52:28 INFO]: Done preparing level "world" (0.331s)
-[21:52:28 INFO]: [ViaVersion] Enabling ViaVersion v5.12.2-SNAPSHOT
-[21:52:28 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
-[21:52:28 INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.2-SNAPSHOT
-[21:52:28 INFO]: [spark] Starting background profiler...
-[21:52:29 INFO]: Running delayed init tasks
-[21:52:29 INFO]: Done (14.417s)! For help, type "help"
-[21:52:29 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[21:52:29 WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.12.2-SNAPSHOT
-[02:52:40 INFO]: Automatic saving is now disabled
-[02:52:40 INFO]: Saving the game (this may take a moment!)
-[02:52:40 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:52:40 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:52:40 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:52:40 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:52:40 INFO]: Saved the game
-[02:52:47 INFO]: Automatic saving is now enabled
-[02:52:47 INFO]: Stopping the server
-[02:52:47 INFO]: Stopping server
-[02:52:47 INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.6
-[02:52:47 INFO]: [ViaRewind] Disabling ViaRewind v4.2.0
-[02:52:47 INFO]: [ViaBackwards] Disabling ViaBackwards v5.12.2-SNAPSHOT
-[02:52:47 INFO]: [ViaVersion] Disabling ViaVersion v5.12.2-SNAPSHOT
-[02:52:47 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[02:52:47 INFO]: Saving players
-[02:52:47 INFO]: Saving worlds
-[02:52:47 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:52:47 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:52:47 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:52:47 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:52:47 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[02:52:47 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[02:52:47 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[02:52:47 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:52:47 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:52:47 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:52:47 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:52:47 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[02:52:47 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[02:52:47 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[02:52:47 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:52:47 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:52:47 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:52:47 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:52:47 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:52:47 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[02:52:47 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[02:52:47 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:52:47 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:52:47 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:52:47 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:52:47 INFO]: Waiting for all RegionFile I/O tasks to complete...
-[02:52:47 INFO]: All RegionFile I/O tasks to complete
-[02:52:47 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[02:52:47 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:53:26 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:53:28 INFO]: Loaded 1470 recipes
+[02:53:28 INFO]: Loaded 1584 advancements
+[02:53:28 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:53:29 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 499.6ms
+[02:53:29 INFO]: Starting minecraft server version 1.21.11
+[02:53:29 INFO]: Loading properties
+[02:53:29 INFO]: This server is running Paper version 1.21.11-67-main@bc0c3d8 (2025-12-30T17:27:55Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[02:53:29 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:53:29 INFO]: Server Ping Player Sample Count: 12
+[02:53:29 INFO]: Using 4 threads for Netty based IO
+[02:53:30 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:53:30 INFO]: Default game type: SURVIVAL
+[02:53:30 INFO]: Generating keypair
+[02:53:31 INFO]: Starting Minecraft server on *:25565
+[02:53:31 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:53:31 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:53:31 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.2-SNAPSHOT
+[02:53:31 INFO]: [ViaVersion] ViaVersion 5.12.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[02:53:33 INFO]: [ViaBackwards] Loading translations...
+[02:53:33 INFO]: [ViaBackwards] Registering protocols...
+[02:53:33 INFO]: [ViaRewind] Registering protocols...
+[02:53:33 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.2-SNAPSHOT
+[02:53:33 INFO]: [ViaRewind] Loading server plugin ViaRewind v4.2.0
+[02:53:33 INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.6
+[02:53:33 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:53:33 INFO]: [ViaRewind] Enabling ViaRewind v4.2.0
+[02:53:33 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.6
+[02:53:34 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.11[32;1m.[0;39m
+[02:53:34 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[02:53:34 INFO]: Preparing level "world"
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer   |[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |-------------------|[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m  |[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.6[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mc8c321f[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[02:53:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
+[02:53:35 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[02:53:35 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[02:53:35 INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[02:53:35 INFO]: Prepared spawn area in 0 ms
+[02:53:35 INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[02:53:35 INFO]: Prepared spawn area in 0 ms
+[02:53:35 INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[02:53:35 INFO]: Prepared spawn area in 0 ms
+[02:53:35 INFO]: Done preparing level "world" (0.616s)
+[02:53:35 INFO]: [ViaVersion] Enabling ViaVersion v5.12.2-SNAPSHOT
+[02:53:35 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[02:53:35 INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.2-SNAPSHOT
+[02:53:36 INFO]: [spark] Starting background profiler...
+[02:53:37 INFO]: Running delayed init tasks
+[02:53:37 INFO]: Done (21.129s)! For help, type "help"
+[02:53:37 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:53:37 WARN]: [ViaVersion] There is a newer plugin version available: 5.12.2, you're on: 5.12.2-SNAPSHOT
