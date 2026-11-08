@@ -1,9 +1,9 @@
 {
   "schema": 2,
   "serverId": "mvedskyt5ee1oh",
-  "phase": "starting",
-  "ready": false,
-  "reason": "playit-agent-failed",
+  "phase": "ready",
+  "ready": true,
+  "reason": "server-ready",
   "playersOnline": null,
   "playersMax": null,
   "version": "1.21.11",
@@ -26,10 +26,10 @@
   "serverPortStatus": "listening",
   "gamePort": 25565,
   "agentLogTail": "",
-  "fileManifestStatus": "unknown",
-  "fileSnapshotStatus": "unknown",
+  "fileManifestStatus": "published",
+  "fileSnapshotStatus": "publish_failed",
   "latencyMs": null,
-  "updatedAt": "2026-11-08T09:57:28Z",
-  "cycleStartedAt": "2026-11-08T09:56:47Z",
+  "updatedAt": "2026-11-08T09:57:33Z",
+  "cycleStartedAt": "2026-11-08T09:57:29Z",
   "conclusion": ""
 }
